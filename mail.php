@@ -5,7 +5,7 @@ $login = $_POST['login'];
 $time = date("Y-m-d H:i:s");
 $phone = $_POST['phone'];
 $playid = $_POST['playid'];
-$apiToken = 5254543357:AAGLTcqMxw-r6JKF0PFNv61ExGPm6KaXWzw;
+$apiToken = $tokenYhya;
 define('API_KEY',$API_KEY);
 function bot($method,$datas=[]){
     $yhya = http_build_query($datas);
